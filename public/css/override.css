@@ -1,0 +1,173 @@
+/* Primary Menu
+---------------------------------------------------------------------------- */
+
+#primary-menu ul li a {
+	height: 70px;
+	padding: 0 22px;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+#primary-menu > ul > li:hover a,
+#primary-menu > ul > li.current a { color: #1ABC9C; }
+
+#primary-menu > ul > li.sub-menu > a > div { }
+
+#primary-menu ul ul,
+#primary-menu ul li .mega-menu-content {
+	top: 70px;
+}
+
+/* ----------------------------------------------------------------------------
+	Footer Widgets
+---------------------------------------------------------------------------- */
+
+#footer .widget { padding: 30px 0; }
+
+#footer .widget > h4 {
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+
+
+#footer .widget ul.footer-site-links li {
+	margin: 5px 0;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+
+#footer .widget .form-control { text-align: center; }
+
+.widget p.lead {
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
+
+/* ----------------------------------------------------------------------------
+	Buttons
+---------------------------------------------------------------------------- */
+
+.button.button-border {
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+
+.button.button-border.button-large {
+	font-size: 15px;
+}
+
+.button.button-border.button-light {
+	border-color: #F9F9F9;
+	color: #F9F9F9;
+}
+
+.button.button-border.button-light:hover {
+	background-color: #F9F9F9;
+	color: #333;
+	text-shadow: none;
+}
+
+.button.button-border.button-circle { border-radius: 20px; }
+
+.button.button-border.button-large.button-circle { border-radius: 23px; }
+
+
+/* ----------------------------------------------------------------------------
+	Travel Demo
+---------------------------------------------------------------------------- */
+
+#travel-slider-overlay {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.travel-organiser-tabs .tab-container {
+	padding: 40px;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.vertical-bottom {
+	height: auto !important;
+	left: 0;
+	bottom: 0%;
+}
+
+/* ----------------------------------------------------------------
+	Event List
+---------------------------------------------------------------------*/
+#posts .entry-content {
+	margin-top: 40px;
+}	
+
+/* --------------------------------------------------------------
+	Bootstrap-Dialog
+------------------------------------------------------------------*/
+.bootstrap-dialog.type-primary .modal-header {
+	background-color: #1ABC9C;
+}
+
+/* --------------------------------------------------------------
+	Common Vertical Align
+------------------------------------------------------------------*/
+.col-middle {
+	vertical-align: middle;
+}
+
+.col-top, .col-middle, .col-bottom {
+	float: none;
+	display: table-cell;
+}
+
+.row-space {
+	margin: 5px 0;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.btn.button.button-border.active,
+.btn.button.button-border:hover {
+	background: #1ABC9C !important;
+	border-color: #1ABC9C !important;
+}
+
+.btn.button.button-border.active > .i-plain,
+.btn.button.button-border:hover > .i-plain {
+	color: #fff !important;
+}
+
+@media (max-width: 992px) {
+	.row-space {
+		margin: 0;
+	}
+	
+	.reponsive-button {
+		border-top: 0 !important;
+		width: 100%;
+	}
+}
+
+/* --------------------------------------------------------------
+	Datepicker.css
+------------------------------------------------------------------*/
+.datepicker.dropdown-menu {
+	z-index: 1200 !important;
+}
